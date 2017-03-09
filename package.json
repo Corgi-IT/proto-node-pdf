@@ -1,0 +1,32 @@
+{
+  "name": "proto-node-pdf",
+  "version": "1.0.0",
+  "description": "NodeJS PDF generation Prototype",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geexteam/proto-node-pdf.git"
+  },
+  "keywords": [
+    "PDF",
+    "NodeJS",
+    "PDF",
+    "Prototype"
+  ],
+  "author": "Renzo Roso <renzo@geex.company>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Geexteam/proto-node-pdf/issues"
+  },
+  "homepage": "https://github.com/Geexteam/proto-node-pdf#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "handlebars": "^4.0.6",
+    "html-pdf": "^2.1.0",
+    "moment": "^2.17.1",
+    "thunkify": "^2.1.2"
+  }
+}
