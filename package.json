@@ -4,7 +4,11 @@
   "description": "NodeJS PDF generation Prototype",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "test"
+  },
+  "engines": {
+    "node": ">=10.0.0"
   },
   "repository": {
     "type": "git",
@@ -23,10 +27,8 @@
   },
   "homepage": "https://github.com/Geexteam/proto-node-pdf#readme",
   "dependencies": {
-    "co": "^4.6.0",
     "handlebars": "^4.0.6",
     "html-pdf": "^2.1.0",
-    "moment": "^2.17.1",
-    "thunkify": "^2.1.2"
+    "moment": "^2.17.1"
   }
 }
